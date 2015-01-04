@@ -87,4 +87,7 @@ bindkey -v
 bindkey '^R' history-incremental-search-backward
 bindkey '^S' history-incremental-search-forward
 bindkey '^P' history-search-backward
-bindkey '^N' history-search-forward  
+bindkey '^N' history-search-forward 
+
+# Allow short CD syntax
+setopt AUTO_CD

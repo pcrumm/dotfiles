@@ -12,3 +12,5 @@ All of the hard work for zsh. [Get it here](https://github.com/robbyrussell/oh-m
 This makes copy-and-paste work in tmux for OS/X. To get it:
 
     brew install reattach-to-user-namespace
+
+Then, just use <tmux-prefix> y to paste from the OS/X clipboard.

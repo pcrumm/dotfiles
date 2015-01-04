@@ -13,7 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 " plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'https://github.com/kien/ctrlp.vim'
 Bundle 'rking/ag.vim'
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -30,6 +30,10 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" Always show the statusbar (powerline)
+set laststatus=2
+
+" Themeing and behavior
 set background=dark
 colorscheme solarized	" this one's pretty neat, also use molokai or solarized
 syntax enable		" enable syntax processing

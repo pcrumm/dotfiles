@@ -7,3 +7,8 @@ In addition to vim, zsh, and tmux, you'll want to install a few other projects. 
 
 ### oh-my-zsh
 All of the hard work for zsh. [Get it here](https://github.com/robbyrussell/oh-my-zsh).
+
+### reattach-to-user-namespace
+This makes copy-and-paste work in tmux for OS/X. To get it:
+
+    brew install reattach-to-user-namespace

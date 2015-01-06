@@ -49,6 +49,10 @@ set showmatch		" highlight the matching container (eg {}()"")
 set incsearch       " search as characters are entered
 set hlsearch        " highlight matches
 
+" Indentation
+set autoindent
+set smartindent
+
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
 

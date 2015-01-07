@@ -14,6 +14,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'https://github.com/kien/ctrlp.vim'
 Bundle 'rking/ag.vim'
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'ervandew/supertab'
+Plugin 'shawncplus/phpcomplete.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -39,6 +41,7 @@ colorscheme solarized	" this one's pretty neat, also use molokai or solarized
 syntax enable		" enable syntax processing
 set tabstop=4		" number of visual spaces per tab
 set softtabstop=4	" number of spaces inserted when hitting/inserting tab
+set shiftwidth=4    " number of spaces inserted when using the shift operator
 set expandtab		" tabs are spaces
 set number			" show linenumbers
 set showcmd			" show commandbar

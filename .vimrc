@@ -17,6 +17,8 @@ Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'ervandew/supertab'
 Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'dart-lang/dart-vim-plugin'
+Plugin 'kchmck/vim-coffee-script'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

@@ -19,6 +19,7 @@ Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'dart-lang/dart-vim-plugin'
 Plugin 'kchmck/vim-coffee-script'
+Bundle 'stephpy/vim-php-cs-fixer'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

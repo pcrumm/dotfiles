@@ -14,3 +14,6 @@ This makes copy-and-paste work in tmux for OS/X. To get it:
     brew install reattach-to-user-namespace
 
 Then, just use <tmux-prefix> y to paste from the OS/X clipboard.
+
+### php-cs-fixer
+My current PHP projects meet the PSR-1 and PSR-2 standards. It's helpful to have an automated check (which we later integrate into vim). You can grab the backbone for this check, php-cs-fixer, [here](http://cs.sensiolabs.org/).

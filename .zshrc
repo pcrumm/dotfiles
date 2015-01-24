@@ -79,6 +79,8 @@ export PATH="/Users/phil/dart/dart-sdk/bin:/usr/local/mysql/bin:/usr/bin:/bin:/u
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+alias dev="ssh phil@dev.fulcrumm.com"
+#
 # Make things a little more vim friendly
 export EDITOR="vim"
 bindkey -v 

@@ -20,6 +20,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'dart-lang/dart-vim-plugin'
 Plugin 'kchmck/vim-coffee-script'
 Bundle 'stephpy/vim-php-cs-fixer'
+Plugin 'kshenoy/vim-signature'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -137,3 +138,6 @@ noremap <leader>yy "*Y
 
 " Preserve indentation while pasting text from the OS X clipboard
 noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
+
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
